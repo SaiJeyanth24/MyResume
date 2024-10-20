@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: block;
+    width: 35%;
+}
+
+.right{
+    display: block;
+    width: 55%;
+    float: right;
+}
+
+li{
+    width:90%;
+}
+
+a,a:hover,a:focus, a:active,a:visited, a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+p,h2,h3{
+    margin: 5px;
+}
+
+header{
+    text-align: center;
+}
+
+td{
+    width: 140px;
+}
+
+#header-name{
+    font-family: "Jura", sans-serif;
+    font-size: large;
+    font-style: normal;
+}
+
+#header-details{
+    font-family: "Georama", sans-serif;
+}
+
+.title{
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100.6;
+}
+
+.section-header{
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.section-info{
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+.sub-header{
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.items > p{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.set-flow{
+    display: flex;
+    margin: 0;
+}
+
+.set-flow > .section-info{
+    padding-top: 2px;
+}
